@@ -42,3 +42,4 @@ python -m http.server 8000
 ## સૂચનો મોકલવાનો WhatsApp નંબર
 
 `index.html` માં `const SUG={wa:"..."}` લાઇનમાં છે. નંબર બદલવો હોય તો ત્યાં બદલો.
+
