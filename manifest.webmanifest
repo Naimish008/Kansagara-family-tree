@@ -1,0 +1,20 @@
+{
+  "id": "./",
+  "name": "કણસાગરા પરિવાર વંશ વૃક્ષ",
+  "short_name": "વંશ વૃક્ષ",
+  "description": "કણસાગરા પરિવારનું વંશ વૃક્ષ: શોધ, વૃક્ષ, પેઢી અને સંબંધ",
+  "lang": "gu",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#faf6ee",
+  "theme_color": "#2f6b3a",
+  "categories": ["lifestyle", "social"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

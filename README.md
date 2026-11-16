@@ -8,6 +8,9 @@ GEDCOM ફાઇલ (`data/family.ged`) માંથી બનતી વંશ-�
 ├── index.html          ← વેબસાઇટનો કોડ (સામાન્ય રીતે બદલવાની જરૂર નથી)
 ├── data/
 │   └── family.ged      ← પરિવારનો ડેટા (આ ફાઇલ બદલવાની છે)
+├── manifest.webmanifest ← એપ (PWA) ની માહિતી
+├── sw.js               ← ઓફલાઇન/એપ માટે service worker
+├── icons/              ← એપના આઇકોન
 ├── .nojekyll
 └── README.md
 ```
@@ -43,3 +46,10 @@ python -m http.server 8000
 
 `index.html` માં `const SUG={wa:"..."}` લાઇનમાં છે. નંબર બદલવો હોય તો ત્યાં બદલો.
 
+## PWABuilder થી એપ બનાવવા
+
+1. pwabuilder.com ખોલી સાઇટની લિંક નાખો અને Start દબાવો.
+2. Manifest અને Service Worker ટિક લીલા આવવા જોઈએ. પછી **Package for stores** દબાવો.
+3. Android માટે Android પસંદ કરો (Google Play ન જોઈએ તો APK ડાઉનલોડ કરી સીધું વહેંચી શકાય).
+
+ડેટા બદલવા માટે એપ ફરી બનાવવાની જરૂર નથી, કારણ કે એપ GitHub પરની `family.ged` જ વાંચે છે.
